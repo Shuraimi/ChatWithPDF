@@ -6,6 +6,6 @@ langchain-huggingface
 langchain-community
 chromadb
 pypdf
-sentence-tranformers
+sentence-transformers
 python-dotenv
 langchain-classic
