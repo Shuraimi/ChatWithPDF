@@ -69,7 +69,7 @@ def process_input():
         
 def main():
     st.title('RAG app')
-    st.image('RAG_projects\ChatWithPDF_with_chathistory\ChatGPT Image May 30, 2026, 06_40_16 AM.png',width=300,caption='RAG app architecture',)
+    st.image('App flow.png',width=300,caption='RAG app architecture',)
     
     # to get unique sesion id for each user to keep track of previous chat intercations of user and use that as context for future interactions, we can use uuid module to generate unique session ids
     import uuid
