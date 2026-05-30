@@ -9,3 +9,5 @@ pypdf
 sentence-transformers
 python-dotenv
 langchain-classic
+torchvision
+torch
