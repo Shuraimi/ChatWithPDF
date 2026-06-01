@@ -68,7 +68,7 @@ def process_input():
         st.session_state.messages.append({'role':'assistant','content':response})
         
 def main():
-    st.title('RAG app')
+    st.title('Chat with PDF')
     st.image('App flow.png',width=300,caption='RAG app architecture',)
     
     # to get unique sesion id for each user to keep track of previous chat intercations of user and use that as context for future interactions, we can use uuid module to generate unique session ids
